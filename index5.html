@@ -38,93 +38,94 @@ Make sure we are in the home directory by using command:
 <dl>
 
   <dt>Make sure we are in the home directory by using command:</dl>
-    <dd>cd ~
-    </dd>
+   <b> <dd>cd ~
+    </dd></b>
     <br>
     <br>
 
   
 <dt>We use this command to clone (create a copy of) others or our own folder into our local machine from GitHub which has the folder aka repos:</dt>
-<dd>git clone "url_from_github"
-</dd>
+<b><dd>git clone "url_from_github"
+</dd></b>
 <br>
 <br>
 
 <dt>We move into that folder by using:</dt>
-<dd>cd repo_name_that_is_saved_in_our_machine
-</dd>
+<b><dd>cd repo_name_that_is_saved_in_our_machine
+</dd></b>
 <br>
 <br>
 
 <dt>We can then see the folder's content. So, we then use:</dt>
-<dd>code file_name
-</dd>
+<b><dd>code file_name
+</dd></b>
 to create or open a file for writing our code in it.
 <br>
 <br>
 
 <dt>To add this file into GitHub, we must first add the file to a staging area:</dt>
-<dd>git add file_name
-</dd>
+<b><dd>git add file_name
+</dd></b>
 <br>
 <br>
 
 <dt>Then create a snapshot of it with:</dt>
-<dd>git commit -m "enter message for snapshot"
-</dd>
+<b><dd>git commit -m "enter message for snapshot"
+</dd></b>
 <br>
 <br>
 
 <dt>Then to push this code finally to GitHub we use:</dt>
-<dd>git push origin main
-</dd>
+<b><dd>git push origin main
+</dd></b>
 <br>
 <br>
 
 <p>We are by default working with the main branch, but developers in a team can sometimes dive into another branch within the same project that they are working on and then later merge it with the main code in the main branch.</p>
 
 <dt>After making changes to our code we can use:</dt>
-<dd>git status
-</dd>
+<b><dd>git status
+</dd></b>
 to see if we have added, committed, and pushed our changes to GitHub.
 <br>
 <br>
 
 <dt>So far we are working with pushing files to GitHub via Git commands. Now, a scenario where we made a mistake or we want to see our code history, Git comes in clutch. We use:</dt>
-<dd>git log
-</dd>
+<b><dd>git log
+</dd></b>
 to see the history of our Git commits aka snapshots, to know the exact code changes in that commit.
 <br>
 <br>
 
 <dt>Each commit/snapshot contains a hash code. We use:
   </dt>
-<dd>git show hashcode_of_that_commit
-</dd>
+<b><dd>git show hashcode_of_that_commit
+</dd></b>
 to see the code details of that specific commit.
 <br>
 <br>
 
 <dt>Now we can choose to reset and go back to our code that was written with our commit as well, this is one of the great reasons for Git. We use these two commands:</dt>
-<dd>git reset --hard hashcode
-</dd>
+<b><dd>git reset --hard hashcode
+</dd></b>
 
 <dt>and then follow it with:</dt>
-<dd>git push origin main --force
-</dd>
+<b><dd>git push origin main --force
+</dd></b>
 for going back to that snapshot.
 <br>
 <br>
 
 <dt>Now, when we want to use what we have learned so far by contributing to someone else's project, we can't directly clone their repo/folder. Instead, we first have to go to their GitHub repo and simply click:</dt>
-<dd>fork (on the web interface)
-</dd>
+<b><dd>fork (on the web interface)
+</dd></b>
 <br>
 <p>What happens then is that their repos would be cloned to our GitHub repos/folder. From there we clone it to our local machine, make our changes, and so on.</p>
 
 <dt>Then finally make a:</dt>
+<b>
 <dd>pull (on the web interface)
-</dd>
+</dd></b>
 request for these changes to go onto their respective repository.
 <br>
 <br>
@@ -136,7 +137,8 @@ request for these changes to go onto their respective repository.
 
   <br>
 
-  ---
+  <hr>
+  <br>
 
 In conclusion, understanding and using Git commands is crucial for efficient collaboration and project management in software development. By mastering these commands, you can seamlessly track changes, contribute to projects, and leverage GitHub to showcase your work. Happy coding!
 </div>
