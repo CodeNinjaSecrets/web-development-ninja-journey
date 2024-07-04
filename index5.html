@@ -136,21 +136,20 @@ for going back to that snapshot.
 <br>
 <br>
 
-<dt>Now, when we want to use what we have learned so far by contributing to someone else's project, we can't directly clone their repo/folder. Instead, we first have to go to their GitHub repo and simply click:</dt>
-<b><dd>fork (on the web interface)
-</dd></b>
-<br>
-<p>What happens then is that their repos would be cloned to our GitHub repos/folder. From there we clone it to our local machine, make our changes, and so on.</p>
-
-<dt>Then finally make a:</dt>
+<dt>Then finally make a pull request on github UI interface:</dt>
 <b>
-<dd>pull (on the web interface)
+<dd><button>pull request</button>(on the web interface)
 </dd></b>
-request for these changes to go onto their respective repository.
+These output request changes will merge with the master branch correctly with no merge conflicts.
 <br>
 <br>
 
+<h3>Should you do "git pull origin master" before making a "pull request" ?</h3>
 
+<p><h4>Yes!</h4>You should generally do "git pull origin master" before making a pull request.</p>
+
+<h4>Why?</h4>
+Helps ensure that your branch is up-to-date, reduces the risk of merge conflicts
 
 </div> 
   </dl>
