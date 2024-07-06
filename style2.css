@@ -5,6 +5,13 @@ background-color: aquamarine;
 
 }
 
+h1, h2, h3 {
+    font-family:"Kanit";
+
+} 
+
+
+
 .class{
     border-style:solid;
     border-width:2em;
@@ -61,8 +68,6 @@ img{
    
     margin:20px;
 }
-
-
 
 
 

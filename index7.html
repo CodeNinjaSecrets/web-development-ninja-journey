@@ -5,23 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   
 </head>
 <body>
 
 
-    <hr>
- <h2>Classes and ID as selectors</h2>
- <p>We use IDs to style one specific element and classes to style multiple elements. IDs are unique, so they apply styles to a single element, while classes can be used on many elements to apply the same style.</p>
-</p>
    
- <ul>
-    <b>IDs</b> are unique and should start with a letter, like <code>#id64</code>. Style it in CSS with <code>#id64 { }</code>.</li>
-    <br> <br> 
-    <Use <b>Classes</b> to style multiple elements with <code>.className { }</code>.</li>
-</ul>
+
+
+
+<h1>CSS: From Styling to Smiling</h1>
+
+<hr>
+<br>
+
 
 <h2>Fonts</h2>
+
+<p>Its as simples as it gets: </p>
+    
+
+h1, h2, h3 {<br>
+
+    font-family:"Kanit";
+    <br> 
+
+} 
+
+
 <ul>
     <div>
 <p class = "class" >To change the font, use <code>font-family: "Calibri";</code></p>
@@ -29,7 +41,30 @@
 <p class = "class">For changing the font size with <code>font-size: 2em;</code>,<br><br> You can making the text italic with <code>font-style: italic;</code>, and make it bold with<br> <code>font-weight: bold;</code>.</p>
 </ul>
 
-<h2>Borders andd CSS Box model</h2>
+<hr>
+
+<h2>Classes and ID as selectors</h2>
+<p>We use IDs to style one specific element and classes to style multiple elements. IDs are unique, so they apply styles to a single element, while classes can be used on many elements to apply the same style.</p>
+</p>
+  
+<ul>
+   <b>IDs</b> are unique and should start with a letter, like <code>#id64</code>. Style it in CSS with <code>#id64 { }</code>.</li>
+   <br> <br> 
+   <Use <b>Classes</b> to style multiple elements with <code>.className { }</code>.</li>
+</ul>
+
+
+
+<h2>CSS Specificity Rules</h2>
+
+<img src = "css specificity.png"></img>
+   <p><strong>Inline Styles:</strong> Styles applied directly to HTML elements using the <code>style</code> attribute have the highest specificity in CSS.</p>
+   <p><strong>ID Selectors:</strong> Selectors targeting elements by their unique <code>id</code> attribute (<code>#</code>) have higher specificity than classes and element selectors.</p>
+   <p><strong>Class Selectors, Attribute Selectors, and Pseudo-Classes:</strong> Selectors using <code>.</code>, <code>[attribute]</code>, or pseudo-classes have medium specificity, falling between IDs and element selectors.</p>
+   <p><strong>Element Selectors:</strong> Selectors targeting HTML elements directly (like <code>h1</code>, <code>div</code>, etc.) have the lowest specificity among CSS selectors.</p>
+<br>
+<hr>
+<h2>Borders and CSS Box model</h2>
 
 <p>The CSS box model is a layout model that defines the space an element occupies, including:</p>
 <ul>
@@ -81,6 +116,8 @@
 
 <br>
  <br>
+
+
  <h2>Gyatt</h2>
 
 
