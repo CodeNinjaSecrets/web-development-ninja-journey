@@ -1,0 +1,41 @@
+body{color:black;
+    font-family:"Calibri";
+background-color: aquamarine;
+
+
+}
+
+.class{
+    border-style:solid;
+    border-width:2em;
+    border-color:gold;
+    padding:4em;
+    margin:4em;
+
+    
+}
+
+
+img{
+    
+    margin:3rem;
+}
+
+
+
+#id2{
+    position: relative;
+    top:.2rem;
+    left:14rem;
+    margin:4rem;
+}
+
+
+
+/*From below onwards*/
+
+
+
+
+
+
