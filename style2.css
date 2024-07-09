@@ -2,7 +2,7 @@ body{color:black;
     font-family:"Calibri";
 background-color: aquamarine;
 
-
+overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -59,7 +59,7 @@ img{
     padding:16px;
     height: 512px;
     width: 512px;
-
+    opacity: 0.7;
 
 }
 #id4{
@@ -81,6 +81,14 @@ button:hover{
     transform: translateY(-5px);
 
 }
+
+#id6{
+    position: relative;
+    top:-105px;
+    left:525px;
+   
+}
+
 
 
 
