@@ -1,0 +1,23 @@
+#box1{
+
+    border:solid black;
+    width:240px;
+    height:200px;
+    text-align:center;
+    background-color:red;
+
+  
+
+}
+
+#box2
+{
+    border:solid black;
+    width:150px;
+    height:150px;
+    text-align:center;
+    background-color:lightcoral;
+
+    position:relative;
+    left:200px;
+}
