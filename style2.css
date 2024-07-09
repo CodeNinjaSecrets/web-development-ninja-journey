@@ -89,6 +89,70 @@ button:hover{
    
 }
 
+#planet{
+   
+    /*Size of image*/
+    
+    
+    /*Image appearance*/
+    z-index: -1;
+    opacity: 0.7;
+
+    /*Box layout*/
+    border: 2px solid black;
+    padding:20px;
+    margin:2em;
+
+    /*Positioning*/
+    position: absolute;
+    left:1100px; 
+   
+  
+}
+
+#planet3{
+   
+    /*Size of image*/
+    height:30%;
+    width:30%;
+    
+    /*Image appearance*/
+    z-index: -1;
+    opacity: 0.7;
+
+    /*Box layout*/
+    border: 2px solid black;
+    padding:20px;
+    margin:2em;
+
+    /*Positioning*/
+    position: sticky;
+    top:5em; 
+   
+  
+}
+#planet4{
+   
+    /*Size of image*/
+    height:60%;
+    width:60%;
+    
+    /*Image appearance*/
+    z-index: -1;
+    opacity: 0.7;
+
+    /*Box layout*/
+    border: 2px solid black;
+    padding:20px;
+    margin:2em;
+
+    /*Positioning*/
+    position: fixed; 
+left:20em
+   
+  
+}
+
 
 
 /*From below onwards*/
