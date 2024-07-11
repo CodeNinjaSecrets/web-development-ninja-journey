@@ -89,6 +89,28 @@ button:hover{
    
 }
 
+.pagination{
+    text-align:center;
+  
+}
+
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding:10px;
+}
+
+.pagination a.active{
+    font-weight:bold;
+    background-color:yellow;
+
+}
+
+.pagination a:hover:not(.active){
+  background-color:grey;
+  opacity:0.8;
+}
+
 
 
 

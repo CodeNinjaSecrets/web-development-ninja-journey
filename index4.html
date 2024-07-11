@@ -4,6 +4,33 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5</title>
+
+    <style>
+      .pagination{
+    text-align:center;
+  
+}
+
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding:10px;
+}
+
+.pagination a.active{
+    font-weight:bold;
+    background-color:yellow;
+
+}
+
+.pagination a:hover:not(.active){
+  background-color:grey;
+  opacity:0.8;
+}
+
+
+
+      </style>
   
   </head>
   <body style = "background-color: lightblue;">
@@ -316,10 +343,20 @@ Congratulations on completing the basics of HTML5! 🎉. Now how do we host our 
        <br>
        </b>
 
-       <a href = "index5.html" height = "400" width = "250">
-            <button>To find out!</button></a>
-       <br>
-
+       <p class = "pagination">
+        <a href = "index3.html"><</a>
+        <a href = "index2.html">2</a>
+        <a href = "index3.html">3</a>
+        <a href = "index4.html" class = "active">4</a>
+        <a href = "index5.html" >5</a>
+        <a href = "index6.html" >6</a>
+        <a href = "index7.html" >7</a>
+        <a href = "index8.html" >8</a>
+        <a href = "index9.html">9</a>
+        <a href = "index10.html" >10</a>
+        <a href = "index5.html">></a>
+      </p>
+      
        
 
           

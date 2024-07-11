@@ -54,7 +54,33 @@ img{
  #class2{
     font-size: 1.5rem;
 
+ }
+
+ 
+.pagination{
+    text-align:center;
+  
 }
+
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding:10px;
+}
+
+.pagination a.active{
+    font-weight:bold;
+    background-color:yellow;
+
+}
+
+.pagination a:hover:not(.active){
+  background-color:grey;
+  opacity:0.8;
+}
+
+
+
 
 </style>
 
@@ -89,6 +115,23 @@ img{
     <br>
    
         <a href = "index9.html">Sorry for the Clutter, next Page</a>
+<br>
+<br>
+<br>
+        <p class = "pagination">
+            <a href = "index7.html"><</a>
+            <a href = "index2.html">2</a>
+            <a href = "index3.html">3</a>
+            <a href = "index4.html">4</a>
+            <a href = "index5.html">5</a>
+            <a href = "index6.html">6</a>
+            <a href = "index7.html">7</a>
+            <a href = "index8.html" class = "active">8</a>
+            <a href = "index9.html">9</a>
+            <a href = "index10.html" >10</a>
+            <a href = "index9.html">></a>
+        </p>
+        
 
 
 
