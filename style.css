@@ -1,31 +1,31 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(238, 122, 80);
-    color: white;
+    font-family: 'Arial';
+    background-color: rgb(237, 236, 236);
+    color: black;
     overflow-x: hidden;
     padding: 20px;
 }
 
 
 h1{
-    color:white;
+    color:black;
 }
 
 h2{
      
-    color:white;
+    color: black;
 }
 h3{
-    color:white;
+    color:black;
 }   
 h4{
-    color:white;
+    color:black;
 }
 h5{
-    color:white;
+    color:black;
 }
 p{
-    color: white;
+    color: black;
 }
 
 .pagination{
