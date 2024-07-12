@@ -32,11 +32,14 @@ header{
 #firstimage{
     float:left;
     margin:20px;
+    border:solid;
+    border-radius:20px;
 }
 
 #secondimage{
     float:right;
     margin:20px;
+    border:solid;
    
 }
 
