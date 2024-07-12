@@ -22,10 +22,12 @@ header{
 #id1{
     background-color:skyblue;
     position:absolute;
-    top:500px;
+    top:510px;
     left:0px;
     width:100%;
     z-index:-1;
+    padding:10px;
+
 
 }
 
@@ -42,6 +44,7 @@ header{
     border:solid;
    
 }
+
 
 
 .pagination{
