@@ -1,11 +1,14 @@
 body{
     font-family:Arial;
     padding:10px;
+   
 }
 header{
     color:black;
     background-color: hsl(13, 92%, 43%);
 
+  
+ 
 
 /*positioning*/
 position:fixed;
@@ -15,7 +18,9 @@ left:0px;
    width:100%;
    height:20%;
   
-
+  text-align: center;
+    font-size: 24px;
+    
 }
 
 footer{
@@ -38,6 +43,8 @@ div{
     top:20px;
     left:100px;
     font-size:larger;
+    
+   
 }
 #div1{
     position: absolute;
@@ -144,6 +151,7 @@ aside{
 
 
 /* Responsive styles for mobile devices */
+
 @media (max-width: 768px) {
     body {
         padding: 5px;
@@ -202,5 +210,6 @@ aside{
         left: auto;
         margin: 10px auto;
         display: block;
+        
     }
 }

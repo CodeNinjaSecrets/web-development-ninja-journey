@@ -17,6 +17,7 @@ header{
     left:0px;
     width:100%;
     background-color:lightskyblue;
+    text-align: center;
 }
 
 #id1{
@@ -71,6 +72,7 @@ header{
 
 
 /* Responsive styles for mobile devices */
+
 @media (max-width: 768px) {
     body {
         padding-left: 5px;
@@ -103,6 +105,37 @@ header{
 }
 
 
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+    body {
+        padding-left: 5px;
+    }
+
+    header {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #id1 {
+        position: relative;
+        top: auto;
+        padding: 10px;
+    }
+
+    #firstimage, #secondimage {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .pagination a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
 
 
 
