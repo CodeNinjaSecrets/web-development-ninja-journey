@@ -1,0 +1,39 @@
+body{color:black;
+   
+background-color: rgb(251, 251, 138);
+
+overflow-x: hidden;
+
+font-family: "Calibri";
+}
+
+
+
+
+.pagination{
+    text-align:center;
+  
+}
+
+.pagination a{
+    color:black;
+    text-decoration:none;
+    padding:10px;
+}
+
+.pagination a.active{
+    font-weight:bold;
+    background-color:yellow;
+
+}
+
+.pagination a:hover:not(.active){
+  background-color:grey;
+  opacity:0.8;
+}
+
+
+
+
+
+

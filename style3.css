@@ -1,7 +1,10 @@
-
+body{
+    font-family:Arial;
+}
 header{
     color:black;
     background-color: hsl(13, 92%, 43%);
+
 
 /*positioning*/
 position:fixed;
