@@ -70,6 +70,38 @@ header{
 }
 
 
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    body {
+        padding-left: 5px;
+    }
+
+    header {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #id1 {
+        position: relative;
+        top: auto;
+        padding: 5px;
+    }
+
+    #firstimage, #secondimage {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pagination a {
+        display: inline-block;
+        margin: 2px;
+    }
+}
+
 
 
 
