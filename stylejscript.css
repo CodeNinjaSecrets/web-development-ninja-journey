@@ -19,6 +19,16 @@ header{
     background-color:lightskyblue;
 }
 
+#id1{
+    background-color:skyblue;
+    position:absolute;
+    top:500px;
+    left:0px;
+    width:100%;
+    z-index:-1;
+
+}
+
 #firstimage{
     float:left;
     margin:20px;
@@ -27,6 +37,7 @@ header{
 #secondimage{
     float:right;
     margin:20px;
+   
 }
 
 
