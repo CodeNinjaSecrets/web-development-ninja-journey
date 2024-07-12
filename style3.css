@@ -141,3 +141,66 @@ aside{
   opacity:0.8;
 }
 
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    header {
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    div {
+        position: relative;
+        top: auto;
+        left: auto;
+        font-size: medium;
+        text-align: center;
+    }
+
+    #div1, #div2 {
+        position: relative;
+        float: none;
+        margin: 10px auto;
+    }
+
+    .navbar {
+        position: relative;
+        top: auto;
+    }
+
+    .navbar ul {
+        text-align: center;
+    }
+
+    .navbar li {
+        float: none;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    article, section, aside {
+        float: none;
+        width: auto;
+        margin: 10px auto;
+    }
+
+    #redd {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 10px auto;
+        display: block;
+    }
+}
