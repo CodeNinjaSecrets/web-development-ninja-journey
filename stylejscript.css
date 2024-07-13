@@ -50,6 +50,9 @@ header{
 
 .pagination{
     text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
 }
 
@@ -71,7 +74,8 @@ header{
 }
 
 
-/* Responsive styles for mobile devices */
+
+/* Responsive styles for mobile devices 
 
 @media (max-width: 768px) {
     body {
@@ -103,39 +107,4 @@ header{
         margin: 2px;
     }
 }
-
-
-/* Responsive styles for tablets */
-@media (max-width: 1024px) {
-    body {
-        padding-left: 5px;
-    }
-
-    header {
-        position: relative;
-        text-align: center;
-        padding: 10px;
-    }
-
-    #id1 {
-        position: relative;
-        top: auto;
-        padding: 10px;
-    }
-
-    #firstimage, #secondimage {
-        float: none;
-        display: block;
-        margin: 20px auto;
-        max-width: 90%;
-        height: auto;
-    }
-
-    .pagination a {
-        display: inline-block;
-        margin: 5px;
-    }
-}
-
-
 
