@@ -28,6 +28,16 @@ p{
     color: black;
 }
 
+#idimg1{
+    border:solid;
+    border-radius: 10px;
+    
+}
+
+#id3{
+padding:10px;
+}
+
 .pagination{
     text-align:center;
     display: flex;
