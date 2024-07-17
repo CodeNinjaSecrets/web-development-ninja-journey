@@ -31,6 +31,14 @@ header{
 
 
 }
+#iddi{
+
+position:absolute;
+left:100px;
+top:100px;
+border-bottom: solid;  
+
+}
 
 #firstimage{
     float:left;
