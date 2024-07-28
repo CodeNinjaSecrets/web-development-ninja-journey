@@ -54,6 +54,22 @@ border-bottom: solid;
   
    
 }
+#id3{
+    border: black solid;
+    margin-left: 155px;
+}
+#id4{
+    background-color:skyblue;
+    position:absolute;
+    top:1525px;
+    left:0px;
+    width:100%;
+    z-index:-1;
+    padding:10px;
+
+
+}
+
 
 
 
@@ -82,38 +98,4 @@ border-bottom: solid;
   opacity:0.8;
 }
 
-
-
-/* Responsive styles for mobile devices 
-
-@media (max-width: 768px) {
-    body {
-        padding-left: 5px;
-    }
-
-    header {
-        position: relative;
-        text-align: center;
-        padding: 10px;
-    }
-
-    #id1 {
-        position: relative;
-        top: auto;
-        padding: 5px;
-    }
-
-    #firstimage, #secondimage {
-        float: none;
-        display: block;
-        margin: 10px auto;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .pagination a {
-        display: inline-block;
-        margin: 2px;
-    }
-}
 
