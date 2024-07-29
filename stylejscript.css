@@ -58,10 +58,10 @@ border-bottom: solid;
     border: black solid;
     margin-left: 155px;
 }
-#id4{
+#DOM{
     background-color:skyblue;
     position:absolute;
-    top:1525px;
+    top:865px;
     left:0px;
     width:100%;
     z-index:-1;
